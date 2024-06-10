@@ -1,0 +1,26 @@
+form{
+    background-color: aqua;
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+}
+.first{
+    display: flex;
+    margin-bottom:10px;
+    align-items: center;
+}
+label{
+      width: 25%;
+    margin-right: 5px;
+}
+input[type=text],input[type=email],input[type=password],input[type=message]{
+    width:60%;
+    height: 40px;
+    color: black;
+}
+fieldset{
+    border: 2px solid;
+}
+input[type=text]:focus,input[type=password]:focus{
+    background-color: mistyrose;
+}
